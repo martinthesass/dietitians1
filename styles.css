@@ -1172,3 +1172,46 @@ Blog
     color: #efb923;
     transition: 0.5s;
 }
+
+/* hero contact form */
+
+form {
+    border: 2px solid #bd020c;
+    max-width: 65vw;
+    margin: auto;
+    padding: 4rem 0;
+    box-shadow: 5px 10px #bd020c;
+    font-family: "courgette";
+    text-transform: uppercase;
+    color: #bd020c;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+}
+
+.email{
+    display: block;
+    padding: 2rem 0;
+}
+
+.email-space{
+    padding: 1rem;
+    max-width: 50%;
+}
+
+.message {
+    display: block;
+    padding: 2rem 0;
+}
+
+.message-space{
+    padding: 1rem 0;
+    max-width: 50%;
+}
+
+.submitter{
+    background: transparent;
+    padding: 1rem;
+    color: #bd020c;
+    font-weight: 900;
+    font-family: "courgette";
+}
