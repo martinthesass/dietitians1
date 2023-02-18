@@ -1022,7 +1022,7 @@ Blog
 .question-text p {
     text-align: center;
     margin: 0 auto;
-    width: 80%;
+    max-width: 95vw;
     font-size: 1.17rem;
 
 }
