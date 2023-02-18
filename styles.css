@@ -1020,7 +1020,7 @@ Blog
 }
 
 .question-text p {
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     max-width: 95vw;
     font-size: 1.17rem;
