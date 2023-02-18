@@ -673,8 +673,8 @@ Projects
 }
 
 .projects-text {
-    width: 85vw;
-    max-width: 30rem;
+    max-width: 95vw;
+    /* max-width: 30rem; */
     margin: 0 auto;
     font-size: 1.25rem;
 }
