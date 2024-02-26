@@ -391,32 +391,15 @@ About
 
 .tour-date {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-28%, -28%);
-  background: white;
-  color: black;
-  padding: 0.75rem;
-  border-radius: 15px;
-
-  font-weight: bolder;
-  text-transform: uppercase;
-  font-size: 1.25rem;
-}
-
-.p1 {
-  position: absolute;
   right: 0;
   bottom: 0;
-  /* transform: translate(80%, 80%); */
   background: white;
   color: black;
   padding: 0.75rem;
   border-radius: 15px;
-
   font-weight: bolder;
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -427,7 +410,7 @@ About
   }
 
   .tour-card {
-    flex: 0 0 calc(50% - 0.01rem);
+    flex: 0 0 calc(50% - 2rem);
   }
 }
 
