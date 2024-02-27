@@ -448,79 +448,41 @@ About
  Start Contact
 ==================*/
 
-.contact {
-  background: #44c3f1;
-  padding: 50px;
+.container {
+  display: grid;
+  align-items: center;
   text-align: center;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.container h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.contact-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-}
-
-.contact-form {
-  text-align: left;
-}
-
-.contact-form h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-input,
+input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
-  padding: 12px;
-  border-radius: 8px;
-  border: none;
+  border: 2px solid gray;
 }
 
-input:focus,
-textarea:focus {
-  outline: none;
-  box-shadow: 0 0 8px #bbb;
+input[type="text"],
+input[type="email"] {
+  padding: 0.5rem;
 }
 
-.contact-info {
-  text-align: left;
+textarea {
+  height: 30vh;
+  padding-left: 0.5rem;
 }
 
-.contact-info h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
+label {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1em;
 }
 
-.contact-info p {
-  margin-bottom: 10px;
-}
-
-.contact-info i {
-  margin-right: 10px;
-  color: white;
-}
-
-@media screen and (max-width: 768px) {
+@media (max-width: 600px) {
   .container {
-    padding: 20px;
+    width: 90%;
   }
-  .contact-wrapper {
-    grid-template-columns: 1fr;
+  form {
+    padding: 1rem;
   }
 }
 
