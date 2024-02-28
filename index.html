@@ -214,25 +214,24 @@
 
     <!--Start Contact-->
 
-    <section class="container">
-      <form action="" id="contact-form" class="form-container">
-        <h1>contact us</h1>
-        <div class="customer-details">
-          <section class="name-container">
-            <label for="name">full name:</label>
-            <input type="text" id="name" name="name" placeholder="please enter your name" required>
-          </section>
-          <section class="email-container">
-            <label for="email">Email address</label>
-            <input type="email" id="email" name="email" placeholder="please enter your email" required>
-          </section>
+    <div class="contact-container">
+      <form action="" class="contact-left">
+        <div class="contact-left-title">
+          <h2>Get in touch</h2>
+          <hr>
 
         </div>
-        <label for="message">How can we help?</label>
-            <textarea name="message" id="message" placeholder="tell us more"></textarea>
-            <button class="app-btn">Submit</button>
+        <input type="text" name="name" placeholder="Your name" class="contacts-inputs" required>
+                <input type="email" name="email" placeholder="Your email" class="contacts-inputs" required>
+                <textarea name="message" placeholder="Your message" class="contacts-inputs" required></textarea>
+                <button type="submit">Submit</button>
+
       </form>
-</section>
+      <div class="contact-right">
+        <img src="./images/bulb.jpg" alt="">
+
+      </div>
+    </div>
     <!--End contact-->
 
     <!--footer-->
