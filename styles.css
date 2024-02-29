@@ -510,7 +510,7 @@ About
 
 @media (max-width: 800px) {
   .contacts-inputs {
-    max-width: 60vw;
+    max-width: 80vw;
   }
   .contact-right {
     display: none;
