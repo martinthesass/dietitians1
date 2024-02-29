@@ -504,17 +504,13 @@ About
   border: 4px solid orange;
 }
 
-.contact-left button img {
-  height: 15px;
-}
-
 .contact-right img {
   width: 500px;
 }
 
 @media (max-width: 800px) {
   .contacts-inputs {
-    width: 80vw;
+    max-width: 60vw;
   }
   .contact-right {
     display: none;
