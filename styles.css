@@ -27,12 +27,12 @@ Global styles
   body {
     font-size: 1rem;
   }
-  h1,
+  /* h1,
   h2,
   h3,
   h4 {
     line-height: 1;
-  }
+  } */
 }
 
 img {
@@ -369,10 +369,14 @@ About
   margin-bottom: 2rem;
 }
 
+.about-img {
+  height: 25rem;
+}
+
 .about-info p {
   text-transform: uppercase;
   line-height: 4rem;
-  text-align: center;
+  /* text-align: center; */
   font-weight: 900;
   letter-spacing: 0.15rem;
 }
@@ -380,7 +384,7 @@ About
 .about-info h2 {
   text-transform: uppercase;
   color: #1cb0e6;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 4rem;
   font-weight: 900;
   letter-spacing: 0.25rem;
@@ -411,8 +415,8 @@ About
 
 .tour-card {
   transition: 0.2s;
-  background: rgb(220, 220, 220);
-  margin-bottom: 2rem;
+  /* background: rgb(220, 220, 220); */
+  margin-bottom: 2.5rem;
 }
 
 .tour-img-container {
@@ -422,6 +426,7 @@ About
 .tour-img {
   height: 25rem;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .tour-date {
