@@ -106,6 +106,17 @@ body {
   margin-top: 1rem;
 }
 
+.app-btn-1 {
+  padding: 1.25rem 2.25rem;
+  text-transform: uppercase;
+  border-radius: 12px;
+
+  background-color: white;
+  font-weight: bolder;
+  color: #1cb0e6;
+  margin-top: 1rem;
+}
+
 /*================
 Section center
 ==================*/
@@ -458,7 +469,7 @@ About
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: blueviolet;
+  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
 }
 
 .contact-left {
