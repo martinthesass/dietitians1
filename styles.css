@@ -401,7 +401,7 @@ About
 .tour-card {
   transition: 0.2s;
   background: rgb(220, 220, 220);
-  /* margin-bottom: 2rem; */
+  margin-bottom: 2rem;
 }
 
 .tour-img-container {
@@ -409,7 +409,7 @@ About
 }
 
 .tour-img {
-  height: 20rem;
+  height: 25rem;
   object-fit: cover;
 }
 
@@ -420,7 +420,7 @@ About
   margin-bottom: 0;
   background: white;
   color: black;
-  padding: 0.1rem;
+  padding: 0.25rem;
   border-radius: 15px;
   font-weight: bolder;
   text-transform: uppercase;
