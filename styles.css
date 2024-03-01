@@ -136,9 +136,9 @@ Section center
 /*================
 NAV BAR
 ==================*/
-.nav-links {
+/* .nav-links {
   display: none;
-}
+} */
 
 .nav {
   padding: 1rem;
@@ -150,6 +150,16 @@ NAV BAR
 .nav-links {
   text-decoration: none;
   list-style: none;
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  column-gap: 2rem;
+  color: #1cb0e6;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 a {
