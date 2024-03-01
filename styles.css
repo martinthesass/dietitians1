@@ -110,7 +110,7 @@ body {
   padding: 1.25rem 2.25rem;
   text-transform: uppercase;
   border-radius: 12px;
-
+  cursor: pointer;
   background-color: white;
   font-weight: bolder;
   color: #1cb0e6;
