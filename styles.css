@@ -233,11 +233,7 @@ a {
   color: white;
 }
 
-.nav-btn {
-  display: none;
-}
-
-.nav-btn {
+.nav-toggle {
   margin-left: -2rem;
 }
 
