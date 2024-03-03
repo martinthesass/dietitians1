@@ -233,6 +233,10 @@ a {
   color: white;
 }
 
+.nav-btn {
+  margin-left: -2rem;
+}
+
 .navbar-fixed li a {
   color: white;
   font-weight: 900;
