@@ -157,6 +157,7 @@ NAV BAR
   background: white;
   box-shadow: #666;
   z-index: 2;
+  padding: -1rem 0;
 }
 
 ul {
@@ -173,6 +174,7 @@ ul {
 .nav-links {
   height: 0;
   overflow: hidden;
+  margin: 3rem auto;
 }
 
 .show-links {
