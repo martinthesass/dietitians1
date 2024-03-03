@@ -1,46 +1,37 @@
-const closeBtn = document.querySelector(".close-btn");
-const navBtn = document.querySelector(".nav-btn");
-const sidebar = document.querySelector(".sidebar");
-const navbar = document.querySelector(".nav");
+// ********** set date ************
+// select span
 
-const btns= document.querySelectorAll(".question-btn");
-const close = document.querySelectorAll(".close");
+// const date = (document.getElementById("date").innerHTML =
+//   new Date().getFullYear());
 
-close.forEach(function(btn){
-  btn.addEventListener("click", function(e){
-    const styles = e.currentTarget.classList;
-    if (styles.contains("close")){
-      sidebar.classList.toggle("show-sidebar");
-    }
-  })
-})
-
-btns.forEach (function(btn){
-  btn.addEventListener("click", function(e){
-    const question = e.currentTarget.parentElement.parentElement
-    question.classList.toggle("show-text");
-  })
-})
-
-
-
-
-
-closeBtn.addEventListener("click", function(){
-sidebar.classList.toggle("show-sidebar");
+// ********** nav toggle ************
+// select button and links
+const navBtn = document.getElementById("nav-toggle");
+const links = document.getElementById("nav-links");
+// add event listener
+navBtn.addEventListener("click", () => {
+  links.classList.toggle("show-links");
 });
 
-navBtn.addEventListener("click", function(){
-    sidebar.classList.toggle("show-sidebar");
+// ********** smooth scroll ************
+// select links
+const scrollLinks = document.querySelectorAll(".scroll-link");
+scrollLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    // prevent default
+    e.preventDefault();
+    links.classList.remove("show-links");
+
+    const id = e.target.getAttribute("href").slice(1);
+    const element = document.getElementById(id);
+    //
+    let position = element.offsetTop - 62;
+
+    window.scrollTo({
+      left: 0,
+      // top: element.offsetTop,
+      top: position,
+      behavior: "smooth",
     });
-
-    window.addEventListener("scroll", function () {
-        if (window.pageYOffset > 80) {
-          navbar.classList.add("navbar-fixed");
-        } else {
-          navbar.classList.remove("navbar-fixed");
-        }
-      });
-
-
-      
+  });
+});

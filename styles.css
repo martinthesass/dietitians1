@@ -35,7 +35,12 @@ Global styles
   } */
 }
 
-img {
+/* img {
+  width: 100%;
+  display: block;
+} */
+
+img:not(.logo) {
   width: 100%;
   display: block;
 }
@@ -100,9 +105,9 @@ body {
   text-transform: uppercase;
   border-radius: 12px;
   border: 5px solid #1cb0e6;
-  background-color: #1cb0e6;
+  background-color: white;
   font-weight: bolder;
-  color: white;
+  color: black;
   margin-top: 1rem;
 }
 
@@ -144,26 +149,61 @@ NAV BAR
   display: none;
 } */
 
-.nav {
-  padding: 1rem;
-  display: grid;
-  align-items: center;
-  background-color: white;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: #666;
+  z-index: 2;
 }
 
-.nav-links {
-  text-decoration: none;
+ul {
   list-style: none;
 }
 
+.nav-link {
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: black;
+}
+
 .nav-links {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  column-gap: 2rem;
-  color: #1cb0e6;
-  font-weight: 900;
-  text-transform: uppercase;
+  height: 0;
+  overflow: hidden;
+}
+
+.show-links {
+  height: 25vh;
+}
+
+.nav-icons {
+  display: none;
+}
+
+.nav-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-toggle {
+  background: transparent;
+  font-size: 2rem;
+  border: transparent;
+}
+
+.nav-toggle:hover {
+  cursor: pointer;
 }
 
 a {
@@ -176,55 +216,6 @@ a {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-}
-
-.nav-header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-}
-
-.nav-btn {
-  background: transparent;
-  border-color: transparent;
-  color: #1cb0e6;
-  font-size: 2rem;
-  cursor: pointer;
-  display: flex;
-  align-items: flex-start;
-}
-
-@media screen and (min-width: 768px) {
-  .nav {
-    background-color: ;
-    box-shadow: ;
-  }
-
-  .nav-btn {
-    display: none;
-  }
-
-  .nav-links {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    column-gap: 2rem;
-    color: #1cb0e6;
-    font-weight: 900;
-    text-transform: uppercase;
-  }
-
-  .nav-links a {
-    font-weight: bold;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.25rem;
-  }
-
-  .nav-center {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-  }
 }
 
 /*fixed navbar*/
