@@ -234,6 +234,10 @@ a {
 }
 
 .nav-btn {
+  display: none;
+}
+
+.nav-btn {
   margin-left: -2rem;
 }
 
