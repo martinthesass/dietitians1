@@ -394,9 +394,10 @@ About
 .about-info p {
   text-transform: uppercase;
   line-height: 4rem;
-  text-align: center;
+  /* text-align: center; */
   font-weight: 900;
   letter-spacing: 0.15rem;
+  margin: 0 auto;
 }
 
 .about-info h2 {
