@@ -483,16 +483,16 @@ About
  Start Contact
 ==================*/
 
-.contact-right img {
+/* .contact-right img {
   height: 20rem;
   width: 20rem;
-}
+} */
 
 .contact-container {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  place-items: center;
+  /* justify-content: space-evenly; */
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
   margin: 0 auto;
 }
