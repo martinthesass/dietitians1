@@ -491,18 +491,18 @@ About
 .contact-container {
   height: 100vh;
   display: grid;
-  align-items: center;
+  place-items: center;
   /* justify-content: space-evenly; */
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
   margin: 0 auto;
 }
 
-/* /* .contact-left {
+.contact-left {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  gap: 20px; */
-} */
+  align-items: center;
+  gap: 20px;
+}
 
 .contacts-inputs {
   width: 400px;
@@ -528,14 +528,14 @@ About
   width: 500px;
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
   .contacts-inputs {
     max-width: 80vw;
   }
   .contact-right {
     display: none;
   }
-} */
+}
 
 /*================
  end Contact
