@@ -494,6 +494,7 @@ About
   align-items: center;
   justify-content: space-evenly;
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
+  margin: 0 auto;
 }
 
 .contact-left {
