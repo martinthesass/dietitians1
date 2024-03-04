@@ -11,6 +11,10 @@ Global styles
   scroll-behavior: smooth;
 }
 
+/* * {
+  border: 2px solid red;
+} */
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -167,13 +171,13 @@ ul {
   display: block;
   padding: 1rem 2rem;
   font-size: 1rem;
-  color: black;
+  color: #1cb0e6;
 }
 
 .nav-links {
   height: 0;
   overflow: hidden;
-  margin: 3rem auto;
+  margin: 0 auto;
 }
 
 .show-links {
@@ -197,6 +201,10 @@ ul {
   padding: 1rem 2rem;
 }
 
+h4 {
+  text-transform: uppercase;
+}
+
 .nav-toggle {
   background: transparent;
   font-size: 2rem;
@@ -211,12 +219,6 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.nav-center {
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto;
 }
 
 /*fixed navbar*/
@@ -337,6 +339,11 @@ HERO
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
     url("./images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg") center/cover
       no-repeat;
+}
+
+.hero-banner {
+  text-align: center;
+  padding: 0 1rem;
 }
 
 .hero-banner h1 {
