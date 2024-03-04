@@ -108,11 +108,12 @@ body {
   padding: 1.25rem 2.25rem;
   text-transform: uppercase;
   border-radius: 12px;
-  border: 5px solid #1cb0e6;
+
   background-color: white;
   font-weight: bolder;
-  color: black;
+  color: #1cb0e6;
   margin-top: 1rem;
+  font-weight: 900;
 }
 
 .app-btn-1 {
@@ -337,7 +338,7 @@ HERO
   align-items: center;
   text-align: center;
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-    url("./images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg") center/cover
+    url("./images/hayley-kim-studios-eot-ka5dM7Q-unsplash-min.jpg") center/cover
       no-repeat;
 }
 
@@ -393,7 +394,7 @@ About
 .about-info p {
   text-transform: uppercase;
   line-height: 4rem;
-  /* text-align: center; */
+  text-align: center;
   font-weight: 900;
   letter-spacing: 0.15rem;
 }
