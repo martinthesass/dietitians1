@@ -11,9 +11,9 @@ Global styles
   scroll-behavior: smooth;
 }
 
-* {
+/* * {
   border: 2px solid red;
-}
+} */
 
 @media screen and (min-width: 800px) {
   h1 {
@@ -386,14 +386,14 @@ HERO
 About
 ==================*/
 
-.about-img,
+.about-photo,
 .about-info {
-  /* display: block;
-  margin-bottom: 1rem; */
+  margin-bottom: 1rem;
 }
 
-.about-img {
+.about-photo {
   height: 25rem;
+  border-radius: 15px;
 }
 
 .about-info {
