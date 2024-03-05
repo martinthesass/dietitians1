@@ -501,6 +501,10 @@ About
   margin: 0 auto;
 }
 
+.contact-container h2 {
+  text-align: center;
+}
+
 .contact-left {
   display: flex;
   flex-direction: column;
