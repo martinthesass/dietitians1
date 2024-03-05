@@ -182,7 +182,7 @@ ul {
 }
 
 .show-links {
-  height: 25vh;
+  height: 40vh;
 }
 
 .nav-icons {
@@ -397,7 +397,7 @@ About
   /* text-align: center; */
   font-weight: 900;
   letter-spacing: 0.15rem;
-  margin: 0 auto;
+  max-width: 90vw;
 }
 
 .about-info h2 {
