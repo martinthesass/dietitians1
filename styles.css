@@ -395,14 +395,16 @@ About
   height: 25rem;
 }
 
-.about-info p {
+.work-dammit {
+  max-width: fit-content;
+}
+
+.about-info {
   text-transform: uppercase;
   line-height: 4rem;
   text-align: center;
   font-weight: 900;
   letter-spacing: 0.1rem;
-  max-width: 80vw;
-  margin: 0 auto;
 }
 
 .about-info h2 {
