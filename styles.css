@@ -337,7 +337,11 @@ HERO
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(
+      109.6deg,
+      rgba(0, 0, 0, 0.54) 11.2%,
+      rgb(63, 61, 61) 78.9%
+    ),
     url("./images/hayley-kim-studios-eot-ka5dM7Q-unsplash-min.jpg") center/cover
       no-repeat;
 }
@@ -347,7 +351,7 @@ HERO
   padding: 0 1rem;
 }
 
-.hero-banner h1 {
+.hero-banner h2 {
   color: white;
   text-transform: uppercase;
   margin-bottom: 2rem;
@@ -521,7 +525,7 @@ About
 }
 
 .contacts-inputs:focus {
-  border: 4px solid orange;
+  border: 4px solid #1cb0e6;
 }
 
 .contact-right img {
@@ -547,7 +551,6 @@ About
 
 .footer {
   text-align: center;
-  background: ;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -560,7 +563,7 @@ About
 .footer-icons {
   display: flex;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
   flex-wrap: wrap;
 }
 
