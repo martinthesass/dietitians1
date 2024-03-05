@@ -11,9 +11,9 @@ Global styles
   scroll-behavior: smooth;
 }
 
-/* * {
+* {
   border: 2px solid red;
-} */
+}
 
 @media screen and (min-width: 800px) {
   h1 {
@@ -388,8 +388,8 @@ About
 
 .about-img,
 .about-info {
-  display: block;
-  margin-bottom: 1rem;
+  /* display: block;
+  margin-bottom: 1rem; */
 }
 
 .about-img {
@@ -408,7 +408,7 @@ About
   text-transform: uppercase;
   color: #1cb0e6;
   /* text-align: center; */
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   font-weight: 900;
   letter-spacing: 0.25rem;
 }
