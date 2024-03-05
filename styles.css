@@ -385,6 +385,9 @@ HERO
 /*================
 About
 ==================*/
+.section-title h2 {
+  text-align: center;
+}
 
 .about-photo,
 .about-info {
