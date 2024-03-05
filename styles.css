@@ -388,15 +388,12 @@ About
 
 .about-img,
 .about-info {
+  display: block;
   margin-bottom: 1rem;
 }
 
 .about-img {
   height: 25rem;
-}
-
-.work-dammit {
-  max-width: 75vw;
 }
 
 .about-info {
@@ -405,14 +402,13 @@ About
   /* text-align: center; */
   font-weight: 900;
   letter-spacing: 0.1rem;
-  max-width: 85vw;
 }
 
 .about-info h2 {
   text-transform: uppercase;
   color: #1cb0e6;
   /* text-align: center; */
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   font-weight: 900;
   letter-spacing: 0.25rem;
 }
