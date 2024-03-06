@@ -484,6 +484,19 @@ About
 ==================*/
 
 /*================
+ Start Modal
+==================*/
+
+.modal {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  /* justify-content: space-evenly; */
+  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
+  margin: 0 auto;
+}
+
+/*================
  Start Contact
 ==================*/
 
@@ -494,7 +507,7 @@ About
 
 .contact-container {
   height: 100vh;
-  display: grid;
+  display: none;
   place-items: center;
   /* justify-content: space-evenly; */
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
@@ -567,7 +580,7 @@ About
 .footer-icons {
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
   flex-wrap: wrap;
 }
 

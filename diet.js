@@ -1,3 +1,19 @@
+// Close modal
+
+const popup = document.querySelector(".modal");
+
+const close = document.querySelector(".closer");
+
+window.onload = function () {
+  setTimeout(function () {
+    popup.computedStyleMap.display = "block";
+  }, 3000);
+};
+
+close.addEventListener("click", () => {
+  popup.style.display = "none";
+});
+
 // ********** set date ************
 // select span
 
