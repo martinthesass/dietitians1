@@ -497,7 +497,6 @@ About
 .modal {
   height: 100vh;
   display: none;
-  transition: 3s;
   place-items: center;
   /* justify-content: space-evenly; */
   background: linear-gradient(
@@ -511,11 +510,10 @@ About
 
 .modal p {
   color: white;
-  text-align: center;
+
   font-weight: bold;
   line-height: 2rem;
   text-transform: uppercase;
-  margin: 0 auto;
 }
 
 /*================
