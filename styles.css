@@ -130,8 +130,8 @@ body {
   font-weight: bolder;
   color: #1cb0e6;
   margin-top: 1rem;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .app-btn-1:hover {
@@ -510,6 +510,7 @@ About
 
 .modal p {
   color: white;
+  display: block;
 
   font-weight: bold;
   line-height: 2rem;
