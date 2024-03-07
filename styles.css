@@ -508,8 +508,8 @@ About
   margin: 0 auto;
 }
 
-.contact-left p {
-  /* text-align: center; */
+.contact-left .p {
+  margin-left: 5% auto;
 }
 
 .modal p {
