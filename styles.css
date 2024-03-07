@@ -513,7 +513,8 @@ About
 }
 
 .para {
-  text-align: center;
+  display: grid;
+  place-items: center;
   color: antiquewhite;
   font-weight: bolder;
   text-transform: uppercase;
