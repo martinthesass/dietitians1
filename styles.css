@@ -522,6 +522,10 @@ About
   margin: 0 10%;
 }
 
+.para p {
+  margin-bottom: 1rem;
+}
+
 /*================
  Start Contact
 ==================*/
