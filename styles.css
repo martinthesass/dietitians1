@@ -515,6 +515,7 @@ About
   font-weight: bold;
   line-height: 2rem;
   text-transform: uppercase;
+  max-width: 50vw;
 }
 
 /*================
