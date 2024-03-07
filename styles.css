@@ -116,6 +116,11 @@ body {
   font-weight: 900;
 }
 
+.options-buttons {
+  display: grid;
+  grid-template-columns: repeat (2, 1fr);
+}
+
 .app-btn-1 {
   padding: 1.25rem 2.25rem;
   text-transform: uppercase;
@@ -125,6 +130,8 @@ body {
   font-weight: bolder;
   color: #1cb0e6;
   margin-top: 1rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .app-btn-1:hover {
@@ -489,11 +496,25 @@ About
 
 .modal {
   height: 100vh;
-  display: grid;
+  display: none;
+  transition: 3s;
   place-items: center;
   /* justify-content: space-evenly; */
-  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(
+      109.6deg,
+      rgba(0, 0, 0, 0.54) 11.2%,
+      rgb(63, 61, 61) 78.9%
+    ),
+    url("./images/hunger-413685_1280.jpg") center/cover no-repeat;
   margin: 0 auto;
+}
+
+.modal p {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2rem;
+  text-transform: uppercase;
 }
 
 /*================
@@ -523,6 +544,8 @@ About
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts-inputs {
