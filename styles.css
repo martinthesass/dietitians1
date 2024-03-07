@@ -509,7 +509,8 @@ About
 }
 
 .contact-left p {
-  max-width: 85vw;
+  width: 65vw;
+  text-align: center;
 }
 
 .modal p {
