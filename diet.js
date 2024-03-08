@@ -4,6 +4,12 @@ const popup = document.querySelector(".modal");
 
 const close = document.querySelector(".closer");
 
+const xBtn = document.querySelector(".x-btn");
+
+xBtn.addEventListener("click", () => {
+  popup.style.display = "none";
+});
+
 close.addEventListener("click", () => {
   popup.style.display = "none";
 });

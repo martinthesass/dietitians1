@@ -512,10 +512,19 @@ About
     url("./images/hunger-413685_1280.jpg") center/cover no-repeat;
 }
 
+.x-btn {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4rem;
+}
+
 .para {
   display: grid;
   place-items: center;
-  color: antiquewhite;
+  color: white;
   font-weight: bolder;
   text-transform: uppercase;
   line-height: 1.8rem;
@@ -565,6 +574,7 @@ About
   padding-left: 25px;
   border-radius: 50px;
   color: #666;
+  font-weight: bolder;
 }
 
 .contact-left textarea {
@@ -574,7 +584,7 @@ About
 }
 
 .contacts-inputs:focus {
-  border: 4px solid #1cb0e6;
+  border: 3px solid #44c3f1;
 }
 
 @media (max-width: 800px) {
