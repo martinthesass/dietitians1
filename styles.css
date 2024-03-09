@@ -588,3 +588,8 @@ About
   flex: space-evenly;
   margin-right: 2rem;
 }
+
+.top {
+  display: block;
+  margin-top: 1.5rem;
+}
