@@ -54,7 +54,7 @@ img:not(.logo) {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .section-title {
@@ -365,7 +365,7 @@ About
   line-height: 3rem;
   /* text-align: center; */
   font-weight: 900;
-  letter-spacing: 0.1rem;
+  /* letter-spacing: 0.1rem; */
 }
 
 .about-info h2 {
