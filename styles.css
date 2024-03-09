@@ -108,7 +108,6 @@ body {
   padding: 1rem 1.25rem;
   text-transform: uppercase;
   border-radius: 12px;
-
   background-color: white;
   font-weight: bolder;
   color: #1cb0e6;
@@ -330,13 +329,6 @@ HERO
   font-weight: 900;
 }
 
-.hero-banner h2 {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 900;
-  margin-bottom: 2rem;
-}
-
 /* @media  screen and (min-width:768px) {
   .hero{
     background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0,0,0,0.7)), url('./images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg') center/cover no-repeat;
@@ -515,11 +507,13 @@ About
   place-items: center;
   /* justify-content: space-evenly; */
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
-  margin: 0 auto;
+  padding-top: 3rem;
 }
 
 .contact-container h2 {
   text-align: center;
+  text-transform: uppercase;
+  color: white;
 }
 
 .contact-left {
