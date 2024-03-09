@@ -578,14 +578,14 @@ About
   border: 3px solid #44c3f1;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .contacts-inputs {
     max-width: 80vw;
   }
   .contact-right {
     display: none;
   }
-}
+} */
 
 /*================
  end Contact
