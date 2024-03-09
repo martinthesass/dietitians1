@@ -574,7 +574,7 @@ About
 .footer-icons {
   display: flex;
   justify-content: center;
-  margin: 0 1.5rem;
+  /* margin: 0 1.5rem; */
   flex-wrap: wrap;
 }
 
@@ -588,6 +588,6 @@ About
   color: #44c3f1;
   font-size: 2rem;
   display: flex;
-  flex: space-between;
-  margin: 0 2rem;
+  flex: space-evenly;
+  margin: 0.1rem 2rem;
 }
