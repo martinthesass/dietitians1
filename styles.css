@@ -570,7 +570,6 @@ About
   list-style: none;
 }
 
-.footer-links,
 .footer-icons {
   display: flex;
   justify-content: center;
@@ -578,16 +577,10 @@ About
   flex-wrap: wrap;
 }
 
-.footer-link {
-  font-size: 2rem;
-  margin-right: 4rem;
-  margin-left: 4rem;
-}
-
 .footer-icon {
   color: #44c3f1;
   font-size: 2rem;
   display: flex;
   flex: space-evenly;
-  margin: 0.1rem 2rem;
+  margin-right: 2rem;
 }
