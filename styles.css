@@ -188,7 +188,7 @@ ul {
 }
 
 .show-links {
-  height: 40vh;
+  height: 50vh;
 }
 
 .nav-icons {
@@ -573,7 +573,7 @@ About
 .footer-icons {
   display: flex;
   justify-content: center;
-  /* margin: 0 1.5rem; */
+  margin-top: 2rem;
   flex-wrap: wrap;
 }
 
