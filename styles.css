@@ -116,9 +116,9 @@ body {
   font-weight: 900;
 }
 
-.options-buttons {
-  display: grid;
-  grid-template-columns: repeat (2, 1fr);
+.option-buttons {
+  display: flex;
+  flex: space-evenly;
 }
 
 .app-btn-1 {
@@ -521,18 +521,8 @@ About
   padding: 4rem;
 }
 
-.para {
-  display: grid;
-  place-items: center;
-  color: white;
-  font-weight: bolder;
-  text-transform: uppercase;
-  line-height: 1.8rem;
-  margin: 0 10%;
-}
-
-.para p {
-  margin-bottom: 1rem;
+.modal p {
+  text-align: center;
 }
 
 /*================
