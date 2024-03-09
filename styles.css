@@ -477,6 +477,13 @@ About
     url("./images/hunger-413685_1280.jpg") center/cover no-repeat;
 }
 
+.modal p {
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.6rem;
+  color: white;
+}
+
 @media screen and (max-width: 800px) {
   .modal p {
     max-width: 80vw;
