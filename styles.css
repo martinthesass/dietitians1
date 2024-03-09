@@ -523,6 +523,7 @@ About
 
 .modal p {
   text-align: center;
+  overflow: hidden;
 }
 
 /*================
