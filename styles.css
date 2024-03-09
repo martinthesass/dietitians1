@@ -578,7 +578,7 @@ About
   border: 3px solid #44c3f1;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .contacts-inputs {
     max-width: 80vw;
   }
