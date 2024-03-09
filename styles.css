@@ -562,8 +562,8 @@ About
 
 .footer {
   text-align: center;
-  /* padding-left: 2rem;
-  padding-right: 2rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .footer li {
@@ -574,7 +574,7 @@ About
 .footer-icons {
   display: flex;
   justify-content: center;
-  /* margin: 1.5rem 0; */
+  margin: 0 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -587,6 +587,7 @@ About
 .footer-icon {
   color: #44c3f1;
   font-size: 2rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex: space-between;
+  margin: 0 2rem;
 }
