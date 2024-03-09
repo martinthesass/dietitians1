@@ -84,9 +84,9 @@ img:not(.logo) {
   }
 }
 
-p {
+/* p {
   min-width: 25rem;
-}
+} */
 
 html:focus-within {
   scroll-behavior: smooth;
@@ -264,41 +264,6 @@ END NAV BAR
 /*================
 SIDE BAR
 ==================*/
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #ffc734;
-  z-index: 5;
-  display: grid;
-  place-items: center;
-  transition: 0.8s;
-  transform: translateX(-100%);
-}
-
-.show-sidebar {
-  transform: translateX(0);
-}
-
-.sidebar-links {
-  list-style: none;
-  text-align: center;
-}
-
-.sidebar-links a {
-  list-style: none;
-  color: white;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 1.5rem;
-}
-
-.sidebar-links a:hover {
-  color: #efb923;
-  transition: 0.5s;
-}
 
 .social-icons {
   display: grid;
@@ -512,6 +477,12 @@ About
     url("./images/hunger-413685_1280.jpg") center/cover no-repeat;
 }
 
+@media screen and (max-width: 800px) {
+  .modal p {
+    max-width: 80vw;
+  }
+}
+
 .x-btn {
   background: transparent;
   border: none;
@@ -519,11 +490,6 @@ About
   top: 0;
   right: 0;
   padding: 4rem;
-}
-
-.modal p {
-  text-align: center;
-  overflow: hidden;
 }
 
 /*================
@@ -580,9 +546,6 @@ About
 
 @media screen and (max-width: 800px) {
   .contacts-inputs {
-    max-width: 80vw;
-  }
-  .center {
     max-width: 80vw;
   }
 }
