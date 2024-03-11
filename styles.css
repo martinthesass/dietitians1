@@ -321,8 +321,8 @@ HERO
       rgba(0, 0, 0, 0.54) 11.2%,
       rgb(63, 61, 61) 78.9%
     ),
-    url("./images/hayley-kim-studios-eot-ka5dM7Q-unsplash-min.jpg") center/cover
-      no-repeat;
+    url("./images/hayley-kim-studios-eot-ka5dM7Q-unsplash-min.webp")
+      center/cover no-repeat;
 }
 
 .hero-banner {
@@ -485,7 +485,7 @@ About
       rgba(0, 0, 0, 0.54) 11.2%,
       rgb(63, 61, 61) 78.9%
     ),
-    url("./images/hunger-413685_1280\ \(1\).jpg") center/cover no-repeat;
+    url("./images/hunger.webp") center/cover no-repeat;
 }
 
 .open-modal {
