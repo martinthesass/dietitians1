@@ -1,9 +1,5 @@
 {
   "dependencies": {
-    "@builder.io/partytown": "^0.7.3",
-    "imagemin": "^8.0.1"
-  },
-  "scripts": {
-    "partytown": "partytown copylib public/~partytown"
+    "@builder.io/partytown": "^0.10.0"
   }
 }
