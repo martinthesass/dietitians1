@@ -6,6 +6,8 @@ const close = document.querySelector(".closer");
 
 const xBtn = document.querySelector(".x-btn");
 
+const openModal = document.querySelector(".open-modal");
+
 xBtn.addEventListener("click", () => {
   popup.style.display = "none";
 });
@@ -19,6 +21,13 @@ window.addEventListener("load", function () {
     document.querySelector(".modal").style.display = "grid";
   }, 5000);
 });
+
+//* OPEN MODAL */
+
+openModal.addEventListener("click", () => {
+  popup.style.display = "grid";
+});
+
 // ********** set date ************
 // select span
 
