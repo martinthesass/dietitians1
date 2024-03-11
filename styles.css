@@ -396,6 +396,13 @@ About
   }
 }
 
+.mc-img {
+  height: 16rem;
+  max-width: 16rem;
+  margin: 1rem auto;
+  filter: grayscale(100%);
+}
+
 /*================
  End About
 ==================*/
@@ -470,7 +477,7 @@ About
       rgba(0, 0, 0, 0.54) 11.2%,
       rgb(63, 61, 61) 78.9%
     ),
-    url("./images/hunger-413685_1280.jpg") center/cover no-repeat;
+    url("./images/hunger-413685_1280\ \(1\).jpg") center/cover no-repeat;
 }
 
 .modal p {
