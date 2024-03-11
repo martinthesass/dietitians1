@@ -88,9 +88,9 @@ img:not(.logo) {
   }
 }
 
-/* p {
-  min-width: 25rem;
-} */
+p {
+  letter-spacing: 0.2rem;
+}
 
 html:focus-within {
   scroll-behavior: smooth;
