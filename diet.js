@@ -17,7 +17,7 @@ close.addEventListener("click", () => {
 window.addEventListener("load", function () {
   setTimeout(function open(event) {
     document.querySelector(".modal").style.display = "grid";
-  }, 1000);
+  }, 5000);
 });
 // ********** set date ************
 // select span
