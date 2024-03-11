@@ -598,6 +598,9 @@ About
 
 .top {
   display: block;
-  margin-top: 1.5rem;
-  line-height: 1.5rem;
+  /* margin-top: 1.5rem; */
+}
+
+.section-title h4 {
+  line-height: 2rem;
 }
