@@ -489,6 +489,7 @@ About
   font-weight: 900;
   line-height: 1.6rem;
   color: white;
+  letter-spacing: 0.4rem;
 }
 
 @media screen and (max-width: 800px) {
