@@ -484,6 +484,11 @@ About
     url("./images/hunger-413685_1280\ \(1\).jpg") center/cover no-repeat;
 }
 
+.open-modal {
+  background: transparent;
+  border: none;
+}
+
 .modal p {
   text-transform: uppercase;
   font-weight: 900;
