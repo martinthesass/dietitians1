@@ -119,6 +119,10 @@ body {
   font-weight: 900;
 }
 
+.app-btn:hover {
+  cursor: pointer;
+}
+
 .option-buttons {
   display: flex;
   flex: space-evenly;
@@ -513,6 +517,9 @@ About
   padding: 4rem;
 }
 
+.x-btn:hover {
+  cursor: pointer;
+}
 /*================
  Start Contact
 ==================*/
