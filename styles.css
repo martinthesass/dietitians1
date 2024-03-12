@@ -321,7 +321,7 @@ HERO
       rgba(0, 0, 0, 0.54) 11.2%,
       rgb(63, 61, 61) 78.9%
     ),
-    url("./images/herophoto.webp") center/cover no-repeat;
+    url("./images/herophoto\ \(1\).jpg") center/cover no-repeat;
 }
 
 .hero-banner {
