@@ -317,12 +317,12 @@ HERO
   align-items: center;
   text-align: center;
   background: linear-gradient(
-    109.6deg,
-    rgba(0, 0, 0, 0.54) 11.2%,
-    rgb(63, 61, 61) 78.9%
-  ); /*
+      109.6deg,
+      rgba(0, 0, 0, 0.54) 11.2%,
+      rgb(63, 61, 61) 78.9%
+    ),
     url("./images/hayley-kim-studios-eot-ka5dM7Q-unsplash-min.jpg") center/cover
-      no-repeat; */
+      no-repeat;
 }
 
 .hero-banner {
