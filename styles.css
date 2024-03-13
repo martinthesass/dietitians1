@@ -53,10 +53,6 @@ img:not(.logo) {
   display: block;
 }
 
-.logo {
-  background: transparent;
-}
-
 .span {
   color: #1cb0e6;
 }
@@ -180,6 +176,10 @@ NAV BAR
   background: white;
   box-shadow: #666;
   z-index: 2;
+}
+
+.logo {
+  background: none;
 }
 
 ul {
