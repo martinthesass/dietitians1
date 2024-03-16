@@ -28,5 +28,5 @@ calculateBtn.addEventListener("click", () => {
 
   let BMR = calculateBMR(weight.value, height.value, age.value, genderValue);
 
-  calories.innerHTML = BMR;
+  calories.innerHTML = "You need " + BMR + " calories per day";
 });
