@@ -3,9 +3,15 @@ html {
   place-items: center;
 }
 
+h3 {
+  text-transform: uppercase;
+}
+
 .bmr-calculator {
   max-width: 300px;
   padding: 8px 24px;
+  background-color: #f3f3f3d2;
+  border-radius: 15px;
 }
 
 .bmr-calculator,
@@ -15,10 +21,13 @@ html {
 
 .bmr-calculator h2 {
   text-align: center;
-  background-color: burlywood;
-  font-weight: 100;
+  background-color: #1cb0e6;
+  font-weight: 900;
   margin: -8px -24px;
   padding: 16px;
+  color: white;
+  border-radius: 15px;
+  letter-spacing: 0.15rem;
 }
 
 .bmr-calculator form input[type="text"] {
@@ -27,6 +36,7 @@ html {
   font-size: 16px;
   font-weight: bold;
   border: 1px solid black;
+  border-radius: 12px;
 }
 
 .bmr-calculator form {
@@ -59,7 +69,13 @@ html {
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: black;
+}
+
+.calculate-btn {
+  background-color: #1cb0e6;
+  font-weight: 900;
+  border-radius: 15px;
+  letter-spacing: 0.15rem;
 }
 
 .bmr-calculator .result {
@@ -67,9 +83,25 @@ html {
   font-size: 18px;
 }
 
-.bmr-calculator .result .calories {
-  color: green;
+.bmr-calculator .result {
+  color: black;
   font-size: 38px;
   margin-right: 8px;
   vertical-align: middle;
+}
+
+#weight {
+  margin-bottom: 2rem;
+}
+
+.calories {
+  font-size: 22px;
+  text-align: left;
+}
+
+p {
+  font-size: 22px;
+  color: navy;
+
+  vertical-align: left;
 }

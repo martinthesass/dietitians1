@@ -10,6 +10,10 @@ const height = document.querySelector(".bmr-calculator form #height");
 
 const weight = document.querySelector(".bmr-calculator form #weight");
 
+const fats = document.querySelector(".fats");
+const proteins = document.querySelector(".proteins");
+const carbs = document.querySelector(".carbs");
+
 //BMR = 10*Weight + 6.25*height -5*age +5 (male)
 
 //BMR = 10*Weight + 6.25*height -5*age -161 (female)
@@ -28,5 +32,12 @@ calculateBtn.addEventListener("click", () => {
 
   let BMR = calculateBMR(weight.value, height.value, age.value, genderValue);
 
-  calories.innerHTML = "You need " + BMR + " calories per day";
+  let fat = BMR * 0.25;
+  let protein = BMR * 0.5;
+  let carb = BMR * 0.5;
+
+  calories.innerHTML = "Your Total Calories are " + Math.round(BMR);
+  fats.innerHTML = Math.round(fat) + " calories from Fat";
+  proteins.innerHTML = Math.round(protein) + " calories from protein ";
+  carbs.innerHTML = Math.round(carb) + " calories from carbohydrates";
 });
