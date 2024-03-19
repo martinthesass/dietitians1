@@ -4,14 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./bmr.css" />
-    <title>Document</title>
+    <title>Weight Loss Calculator</title>
   </head>
   <body>
+    <section class="bodyfat-est">
+      <div class="section-center">
+        <button class="x-btn">
+          <?xml version="1.0" encoding="utf-8"?>
+          <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+          <svg
+            fill="#1C2033"
+            width="52"
+            height="52"
+            version="1.1"
+            id="lni_lni-close"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 64 64"
+            style="enable-background: new 0 0 64 64"
+            xml:space="preserve"
+          >
+            <path
+              d="M35.2,32L59.6,7.6c0.9-0.9,0.9-2.3,0-3.2c-0.9-0.9-2.3-0.9-3.2,0L32,28.8L7.6,4.4c-0.9-0.9-2.3-0.9-3.2,0
+	c-0.9,0.9-0.9,2.3,0,3.2L28.8,32L4.4,56.4c-0.9,0.9-0.9,2.3,0,3.2c0.4,0.4,1,0.7,1.6,0.7c0.6,0,1.2-0.2,1.6-0.7L32,35.2l24.4,24.4
+	c0.4,0.4,1,0.7,1.6,0.7c0.6,0,1.2-0.2,1.6-0.7c0.9-0.9,0.9-2.3,0-3.2L35.2,32z"
+            />
+          </svg>
+        </button>
+
+        <!-- <img
+          src="./images/Female-body-fat-percentage-comparison-pictures.jpg"
+          alt=""
+        />
+        <img src="./images/Body-Fat-percentage-.jpg" alt="" /> -->
+      </div>
+    </section>
+
+    <section class="bodyfat-est-1">
+      <div class="section-center">
+        <button class="x-btn">
+          <?xml version="1.0" encoding="utf-8"?>
+          <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+          <svg
+            fill="#1C2033"
+            width="52"
+            height="52"
+            version="1.1"
+            id="lni_lni-close"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 64 64"
+            style="enable-background: new 0 0 64 64"
+            xml:space="preserve"
+          >
+            <path
+              d="M35.2,32L59.6,7.6c0.9-0.9,0.9-2.3,0-3.2c-0.9-0.9-2.3-0.9-3.2,0L32,28.8L7.6,4.4c-0.9-0.9-2.3-0.9-3.2,0
+	c-0.9,0.9-0.9,2.3,0,3.2L28.8,32L4.4,56.4c-0.9,0.9-0.9,2.3,0,3.2c0.4,0.4,1,0.7,1.6,0.7c0.6,0,1.2-0.2,1.6-0.7L32,35.2l24.4,24.4
+	c0.4,0.4,1,0.7,1.6,0.7c0.6,0,1.2-0.2,1.6-0.7c0.9-0.9,0.9-2.3,0-3.2L35.2,32z"
+            />
+          </svg>
+        </button>
+
+        <!-- <img
+          src="./images/Female-body-fat-percentage-comparison-pictures.jpg"
+          alt=""
+        />
+        <img src="./images/Body-Fat-percentage-.jpg" alt="" /> -->
+      </div>
+    </section>
     <div class="bmr-calculator">
       <h2>Calorie Calculator</h2>
+      <p>*Results shown are calories needed to lose 0.5kg of weight weekly</p>
       <div class="controls">
         <form>
-          <h3>age</h3>
+          <!-- <h3>age</h3>
           <input type="text" id="age" placeholder="Enter your age" />
           <div class="gender">
             <h3>Gender</h3>
@@ -19,12 +89,23 @@
             <label for="male">Male</label>
             <input type="radio" id="female" value="female" name="gender" />
             <label for="male">Female</label>
-          </div>
+          </div> -->
 
-          <div class="height">
-            <h3>height</h3>
-            <input type="text" id="height" placeholder="Enter your height" />
-            <div class="unit">cm</div>
+          <div class="bodyfat">
+            <h3>bodyfat</h3>
+
+            <input type="text" id="bodyfat" placeholder="Enter your bodyfat" />
+            <div class="unit"></div>
+            <button type="button" class="bodyfat-btn">
+              female bodyfat estimate
+            </button>
+
+            <button type="button" class="bodyfat-btn-1">
+              male bodyfat estimate
+            </button>
+            <p>
+              *Photo credit bodyfat estimator: https://ultimateperformance.com/
+            </p>
           </div>
 
           <div class="weight">

@@ -78,6 +78,22 @@ h3 {
   letter-spacing: 0.15rem;
 }
 
+.bodyfat-btn {
+  background-color: #1cb0e6;
+  font-weight: 900;
+  border-radius: 15px;
+  letter-spacing: 0.15rem;
+  margin-top: 2rem;
+}
+
+.bodyfat-btn-1 {
+  background-color: #1cb0e6;
+  font-weight: 900;
+  border-radius: 15px;
+  letter-spacing: 0.15rem;
+  margin-top: 2rem;
+}
+
 .bmr-calculator .result {
   text-align: center;
   font-size: 18px;
@@ -103,5 +119,58 @@ p {
   font-size: 22px;
   color: navy;
 
-  vertical-align: left;
+  text-align: left;
+}
+
+/* .bodyfat-est {
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  max-height: 100vh;
+  max-width: 85vw;
+  margin: 0 auto;
+  display: none;
+  z-index: 8;
+} */
+
+button {
+  cursor: pointer;
+}
+.bodyfat-est {
+  display: grid;
+  display: none;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background: url("./images/Female-body-fat-percentage-comparison-pictures.jpg")
+    center/contain no-repeat;
+}
+
+.bodyfat-est-1 {
+  display: grid;
+  display: none;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background: url("./images/Body-Fat-percentage-.jpg") center/contain no-repeat;
+}
+
+.bodyfat p {
+  text-align: center;
+  color: black;
+  font-size: 0.75rem;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
 }
