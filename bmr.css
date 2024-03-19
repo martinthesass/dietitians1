@@ -187,6 +187,7 @@ button {
     display: grid;
     place-items: center;
     display: none;
+    max-width: fit-content;
   }
 }
 
