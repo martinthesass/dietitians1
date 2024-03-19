@@ -178,13 +178,13 @@ button {
   margin-bottom: 2.5rem;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .featured-center {
     display: grid;
     place-items: center;
     display: none;
   }
-}
+} */
 
 /* close button */
 
