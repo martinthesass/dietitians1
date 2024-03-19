@@ -3,6 +3,10 @@ html {
   place-items: center;
 }
 
+img {
+  width: 100%;
+}
+
 h3 {
   text-transform: uppercase;
 }
@@ -166,7 +170,6 @@ button {
   height: 25rem;
   object-fit: cover;
   border-radius: 15px;
-  max-width: 95vw;
 }
 
 .tour-card {
@@ -177,7 +180,6 @@ button {
 
 @media screen and (min-width: 768px) {
   .featured-center {
-    max-width: 85vw;
     display: grid;
     place-items: center;
     display: none;
