@@ -136,26 +136,6 @@ p {
 button {
   cursor: pointer;
 }
-.bodyfat-est {
-  display: grid;
-  display: none;
-  align-items: center;
-  min-height: 100vh;
-  min-width: 100vw;
-
-  background: url("./images/Female-body-fat-percentage-comparison-pictures.jpg")
-    center/contain no-repeat;
-}
-
-.bodyfat-est-1 {
-  display: grid;
-  display: none;
-  align-items: center;
-  min-height: 100vh;
-  min-width: 100vw;
-
-  background: url("./images/Body-Fat-percentage-.jpg") center/contain no-repeat;
-}
 
 .bodyfat p {
   text-align: center;
@@ -173,4 +153,57 @@ button {
   .section-center {
     width: 95vw;
   }
+}
+
+/* Body fat images */
+
+.featured-center {
+  display: grid;
+  display: none;
+}
+
+.tour-img {
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.tour-card {
+  transition: 0.2s;
+  /* background: rgb(220, 220, 220); */
+  margin-bottom: 2.5rem;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .featured-center {
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: none; */
+    display: grid;
+    display: none;
+    place-items: center;
+    margin: 0 auto;
+  }
+
+  .tour-card {
+    flex: 0 0 calc(50% - 2rem);
+  }
+}
+
+/* close button */
+
+.close {
+  background: transparent;
+  border: none;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+  color: black;
+  line-height: 1.35rem;
 }

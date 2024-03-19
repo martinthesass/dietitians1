@@ -17,14 +17,12 @@ const carbs = document.querySelector(".carbs");
 const bodyfat = document.querySelector(".bmr-calculator form #bodyfat");
 
 const bodyFatBtn = document.querySelector(".bodyfat-btn");
-const bodyFatBtnM = document.querySelector(".bodyfat-btn-1");
-
-const bodyest = document.querySelector(".bodyfat-est");
-const bodyest1 = document.querySelector(".bodyfat-est-1");
 
 const bmrcalc = document.querySelector(".bmr-calculator");
 
-xBtn = document.querySelector(".x-btn");
+featured = document.querySelector(".featured-center");
+
+close = document.querySelector(".close");
 
 //BMR = 10*Weight + 6.25*height -5*age +5 (male)
 
@@ -37,18 +35,14 @@ xBtn = document.querySelector(".x-btn");
 //   return 10 * weight + 6.25 * height - 5 * age - 161;
 // };
 
-xBtn.addEventListener("click", () => {
-  bodyest1.style.display = "none";
-});
-
 bodyFatBtn.addEventListener("click", () => {
-  bodyest.style.display = "block";
+  featured.style.display = "grid";
   bmrcalc.style.display = "none";
 });
 
-bodyFatBtnM.addEventListener("click", () => {
-  bodyest1.style.display = "block";
-  bmrcalc.style.display = "none";
+close.addEventListener("click", () => {
+  featured.style.display = "none";
+  bmrcalc.style.display = "block";
 });
 
 let lbm = weight - bodyfat;
