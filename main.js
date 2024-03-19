@@ -42,7 +42,7 @@ bodyFatBtn.addEventListener("click", () => {
 
 close.addEventListener("click", () => {
   featured.style.display = "none";
-  bmrcalc.style.display = "block";
+  bmrcalc.style.display = "grid";
 });
 
 let lbm = weight - bodyfat;
