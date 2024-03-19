@@ -160,12 +160,16 @@ button {
 .featured-center {
   display: grid;
   display: none;
+  align-items: center;
 }
 
 .tour-img {
   height: 25rem;
   object-fit: cover;
   border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat (2, 1fr);
+  place-items: center;
 }
 
 .tour-card {
@@ -174,24 +178,17 @@ button {
   margin-bottom: 2.5rem;
   display: grid;
   place-items: center;
-  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .featured-center {
-    /* display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    display: none; */
     display: grid;
     display: none;
-    place-items: center;
-    margin: 0 auto;
   }
 
-  .tour-card {
+  /* .tour-card {
     flex: 0 0 calc(50% - 2rem);
-  }
+  } */
 }
 
 /* close button */
