@@ -159,41 +159,24 @@ button {
   }
 }
 
-.featured-center {
-  display: none;
+.img-center {
+  display: grid;
+  grid-template-columns: repeat (1fr, 1fr);
 }
 
-.tour-img {
-  display: grid;
-  place-items: center;
+.img-center img {
+  object-fit: contain;
 }
 
 /* Body fat images */
 
-.tour-img-container {
-  display: grid;
-  place-items: center;
-}
-
-.tour-img {
-  height: 25rem;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-.tour-card {
-  transition: 0.2s;
-  /* background: rgb(220, 220, 220); */
-  margin-bottom: 2.5rem;
-}
-
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .featured-center {
     display: grid;
     place-items: center;
     display: none;
   }
-}
+} */
 
 /* close button */
 
