@@ -163,6 +163,11 @@ button {
   display: none;
 }
 
+.tour-img {
+  display: grid;
+  place-items: center;
+}
+
 /* Body fat images */
 
 .tour-img-container {
@@ -187,7 +192,6 @@ button {
     display: grid;
     place-items: center;
     display: none;
-    max-width: fit-content;
   }
 }
 
