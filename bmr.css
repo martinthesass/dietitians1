@@ -168,6 +168,10 @@ button {
   object-fit: contain;
 }
 
+.img-center {
+  display: none;
+}
+
 /* Body fat images */
 
 /* @media screen and (min-width: 768px) {

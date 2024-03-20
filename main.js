@@ -20,7 +20,7 @@ const bodyFatBtn = document.querySelector(".bodyfat-btn");
 
 const bmrcalc = document.querySelector(".bmr-calculator");
 
-featured = document.querySelector(".featured-center");
+featured = document.querySelector(".img-center");
 
 close = document.querySelector(".close");
 
