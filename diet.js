@@ -16,11 +16,11 @@ xBtn.addEventListener("click", () => {
 //   popup.style.display = "none";
 // });
 
-window.addEventListener("load", function () {
-  setTimeout(function open(event) {
-    document.querySelector(".modal").style.display = "grid";
-  }, 5000);
-});
+// window.addEventListener("load", function () {
+//   setTimeout(function open(event) {
+//     document.querySelector(".modal").style.display = "grid";
+//   }, 5000);
+// });
 
 //* OPEN MODAL */
 
@@ -63,5 +63,29 @@ scrollLinks.forEach((link) => {
       top: position,
       behavior: "smooth",
     });
+  });
+});
+
+// Question buttons
+
+// const btns = document.querySelectorAll(".question-btn");
+
+const btns = document.querySelectorAll(".question-btn");
+
+const close = document.querySelectorAll(".close");
+
+close.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
+    const styles = e.currentTarget.classList;
+    if (styles.contains("close")) {
+      sidebar.classList.toggle("show-sidebar");
+    }
+  });
+});
+
+btns.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
+    const question = e.currentTarget.parentElement.parentElement;
+    question.classList.toggle("show-text");
   });
 });
