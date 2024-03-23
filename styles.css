@@ -114,7 +114,7 @@ body {
   border-radius: 12px;
   background-color: white;
   font-weight: bolder;
-  color: #1cb0e6;
+  color: black;
   margin-top: 1rem;
   font-weight: 600;
   text-shadow: 0px 1px, 1px 0px, 1px 1px;
@@ -318,7 +318,11 @@ HERO
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #33b1ad;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
   /* background: linear-gradient(to right, #16222a, #3a6073); */
 }
 
@@ -351,7 +355,7 @@ HERO
   text-align: left;
   line-height: 2rem;
   letter-spacing: 0.18rem;
-  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  /* text-shadow: 0px 1px, 1px 0px, 1px 1px; */
 }
 
 /* @media  screen and (min-width:768px) {
@@ -378,6 +382,10 @@ About
 .about-photo,
 .about-info {
   margin-bottom: 1rem;
+}
+
+.section {
+  margin-bottom: 4rem;
 }
 
 .about-photo {
@@ -488,7 +496,7 @@ About
 ==================*/
 
 .services {
-  background: gray;
+  background: #f8f6f0;
 }
 
 .service {
@@ -557,13 +565,19 @@ About
   width: 100vw;
   display: none;
   place-items: center;
+
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
   /* justify-content: space-evenly; */
-  background: linear-gradient(
+  /* background: linear-gradient(
       109.6deg,
       rgba(0, 0, 0, 0.54) 11.2%,
       rgb(63, 61, 61) 78.9%
     ),
-    url("./images/hunger.webp") center/cover no-repeat;
+    url("./images/hunger.webp") center/cover no-repeat; */
 }
 
 .open-modal {
