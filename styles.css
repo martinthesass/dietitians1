@@ -594,12 +594,12 @@ About
   color: white;
   letter-spacing: 0.3rem;
   font-size: 12px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 @media screen and (max-width: 800px) {
   .modal p {
-    max-width: 85vw;
+    max-width: 75vw;
     margin: 0 auto;
   }
 }
