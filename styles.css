@@ -131,6 +131,7 @@ body {
 }
 
 .app-btn-1 {
+  display: block;
   padding: 1rem 1.25rem;
   text-transform: uppercase;
   border-radius: 12px;
@@ -139,9 +140,8 @@ body {
   font-weight: bolder;
   color: white;
   margin-top: 1rem;
-  text-align: left;
-  /* margin-right: 1rem;
-  margin-left: 1rem; */
+  /* text-align: centre; */
+  margin-right: 10rem;
 }
 
 .app-btn-1:hover {
