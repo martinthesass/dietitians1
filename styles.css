@@ -141,7 +141,8 @@ body {
   color: white;
   margin-top: 1rem;
   /* text-align: centre; */
-  margin-right: 10rem;
+
+  text-align: center;
 }
 
 .app-btn-1:hover {
@@ -592,6 +593,8 @@ About
   line-height: 1.6rem;
   color: white;
   letter-spacing: 0.3rem;
+  font-size: 12px;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {
