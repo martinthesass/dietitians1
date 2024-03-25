@@ -16,11 +16,11 @@ xBtn.addEventListener("click", () => {
 //   popup.style.display = "none";
 // });
 
-window.addEventListener("load", function () {
-  setTimeout(function open(event) {
-    document.querySelector(".modal").style.display = "grid";
-  }, 5000);
-});
+// window.addEventListener("load", function () {
+//   setTimeout(function open(event) {
+//     document.querySelector(".modal").style.display = "grid";
+//   }, 5000);
+// });
 
 //* OPEN MODAL */
 
