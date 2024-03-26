@@ -407,7 +407,7 @@ About
 
 .tick svg {
   display: inline-block;
-  margin-right: 1rem;
+  padding-right: 1rem;
 }
 
 .about-info h3 {
