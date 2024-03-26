@@ -405,10 +405,9 @@ About
   /* letter-spacing: 0.1rem; */
 }
 
-.tick svg {
-  display: inline-block;
+/* .about-info svg {
   padding-right: 1rem;
-}
+} */
 
 .about-info h3 {
   text-transform: uppercase;
@@ -422,6 +421,7 @@ About
 .about-info p {
   font-size: 16px;
   text-transform: none;
+  margin-right: 5rem;
 }
 
 .about-center span {
