@@ -422,6 +422,7 @@ About
   font-size: 16px;
   text-transform: none;
   margin-left: 2rem;
+  text-align: center;
 }
 
 .about-info svg {
