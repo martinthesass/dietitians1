@@ -422,6 +422,7 @@ About
   font-size: 16px;
   text-transform: none;
   /* margin-right: 5rem; */
+  text-align: center;
 }
 
 .about-center span {
