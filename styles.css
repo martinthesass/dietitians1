@@ -422,11 +422,12 @@ About
   font-size: 16px;
   text-transform: none;
 
-  text-align: center;
+  /* text-align: center; */
 }
 
 .about-info svg {
   margin-right: 1rem;
+  display: inline-block;
 }
 
 @media screen and (min-width: 992px) {
@@ -657,7 +658,7 @@ Questions
 .question-title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   text-transform: capitalize;
   padding-bottom: 1rem;
   padding-top: 1rem;
