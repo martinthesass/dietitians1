@@ -672,6 +672,7 @@ Questions
   margin-bottom: 0;
   letter-spacing: var(--spacing);
   color: var(--clr-grey-1);
+  padding-right: 22rem;
 }
 .question-btn {
   font-size: 1.5rem;
