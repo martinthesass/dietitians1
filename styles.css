@@ -112,9 +112,9 @@ body {
   padding: 1rem 1.25rem;
   text-transform: uppercase;
   border-radius: 12px;
-  background-color: white;
+  background-color: #44c3f1;
   font-weight: bolder;
-  color: #1cb0e6;
+  color: white;
   margin-top: 1rem;
   font-weight: 900;
   /* text-shadow: 0px 1px, 1px 0px, 1px 1px; */
@@ -355,7 +355,7 @@ h5 {
   text-transform: uppercase;
   margin-bottom: 2rem;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   line-height: 2rem;
   letter-spacing: 0.18rem;
   /* text-shadow: 0px 1px, 1px 0px, 1px 1px; */
@@ -655,16 +655,16 @@ Questions
   padding: 1.5rem 1.5rem 0 1.5rem;
   margin-bottom: 2rem;
 }
-/* .question-title {
+.question-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: capitalize;
   padding-bottom: 1rem;
   padding-top: 1rem;
-} */
+}
 
-.question-title {
+.question-title-1 {
   display: grid;
   align-items: center;
   grid-template-columns: repeat (1fr);
