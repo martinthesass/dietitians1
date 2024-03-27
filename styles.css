@@ -676,7 +676,7 @@ Questions
 
 .question-title p {
   margin-bottom: 0;
-  letter-spacing: var(--spacing);
+  letter-spacing: 0.13rem;
   color: var(--clr-grey-1);
 }
 .question-btn {
@@ -694,6 +694,8 @@ Questions
   padding: 1rem 0 1.5rem 0;
   border-top: 1px solid #1cb0e6;
   border-bottom: 1px solid #1cb0e6;
+  line-height: 1.5rem;
+  letter-spacing: 0.11rem;
 }
 .question-text p {
   margin-bottom: 0;
