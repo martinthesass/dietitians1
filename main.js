@@ -72,3 +72,54 @@ calculateBtn.addEventListener("click", () => {
   proteins.innerHTML = Math.round(protein / 4) + " grams of protein ";
   carbs.innerHTML = Math.round(carb / 4) + " grams of carbohydrates";
 });
+
+const reviews = [
+  {
+    id: 1,
+    name: "john",
+    job: "butcher",
+    img: "https://img.freepik.com/free-photo/abstract-eye-portrait-young-women-elegance-generated-by-ai_188544-9712.jpg",
+  },
+
+  {
+    id: 2,
+    name: "navan",
+    job: "bike",
+    img: "./images/MC-min.webp",
+  },
+
+  {
+    id: 3,
+    name: "peter",
+    job: "tractor",
+    img: "https://cdn.pixabay.com/photo/2018/11/17/22/15/trees-3822149_1280.jpg",
+  },
+
+  {
+    id: 4,
+    name: "jim",
+    job: "scooter",
+    img: "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg",
+  },
+];
+
+//select items
+
+const img = document.getElementById("#person-img");
+const author = document.getElementById("#author");
+const job = document.getElementById("#job");
+
+const prevBtn = document.querySelector(".prev-btn");
+const nextBtn = document.querySelector(".next-btn");
+
+//set current item
+
+let currentItem = 1;
+
+//load initial item
+
+window.addEventListener("DOMContentLoaded", function () {
+  const item = reviews[currentItem];
+  img.src = item.img;
+  author.textContent = item.name;
+});
