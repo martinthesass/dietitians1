@@ -391,6 +391,10 @@ About
   margin-bottom: 1rem;
 }
 
+.about-img {
+  margin-bottom: 8rem;
+}
+
 .section {
   margin-bottom: 4rem;
   margin-top: 4rem;
@@ -517,6 +521,7 @@ About
 
 .services {
   background: #f8f6f0;
+  margin-top: 4rem;
 }
 
 .service {
@@ -748,6 +753,7 @@ Questions
   /* justify-content: space-evenly; */
   background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
   padding-top: 3rem;
+  margin-top: 4rem;
 }
 
 .contact-container h2 {
