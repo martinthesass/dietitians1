@@ -625,6 +625,10 @@ About
   /* text-align: center; */
 }
 
+.modal .modal-p {
+  font-size: 8px;
+}
+
 @media screen and (max-width: 800px) {
   .modal p {
     max-width: 75vw;
