@@ -852,3 +852,16 @@ h3 {
 .section-title h4 {
   line-height: 2rem;
 }
+
+.reviews {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.google {
+  padding: 2rem 0;
+}
+
+.bark {
+  padding: 2rem 0;
+}
