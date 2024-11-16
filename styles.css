@@ -15,8 +15,21 @@ Global styles
   border: 2px solid red;
 } */
 
+html,
 body {
   overflow-x: hidden;
+}
+
+.underline {
+  background-color: black;
+  height: 0.15rem;
+  width: 8rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.and {
+  color: black;
 }
 
 h3 {
@@ -69,9 +82,17 @@ img:not(.logo) {
   padding: 4rem 0;
 }
 
+.section-title h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title svg {
+  margin-top: 1rem;
+}
+
 .section-title {
   text-align: center;
-  margin-bottom: 4rem;
 }
 
 .section-title span {
@@ -187,15 +208,24 @@ NAV BAR
   width: 100%;
   background: white;
   box-shadow: #666;
-  z-index: 2;
+  z-index: 8;
 }
 
 .book {
-  padding: 0.75rem;
+  background-color: #0e98c9;
+  color: white;
+  font-weight: bolder;
+  border: #1cb0e6;
   border-radius: 15px;
-  background-color: #1cb0e6;
-  color: #f8f6f0;
-  font-weight: 900;
+  padding: 1.75rem;
+  border: 2px solid black;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.book:hover {
+  background-color: #03445c;
+  cursor: pointer;
 }
 
 ul {
@@ -233,7 +263,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 0.75rem;
 }
 
 /* @media screen and (min-width: 992px) {
@@ -418,8 +448,8 @@ About
 }
 
 .main {
-  margin-bottom: 1.75rem;
   letter-spacing: 0.25rem;
+  text-align: left;
 }
 
 h4 .color {
@@ -433,7 +463,8 @@ p .color {
 
 .sp {
   color: #1cb0e6;
-  font-weight: 900;
+  font-weight: bolder;
+  /* text-transform: uppercase; */
 }
 
 #Layer_1 {
@@ -441,12 +472,14 @@ p .color {
 }
 
 .about-img {
-  margin-bottom: 8rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 4rem;
 }
 
 .section {
   margin-bottom: 4rem;
-  margin-top: 4rem;
+  margin-top: 0.5rem;
 }
 
 .about-photo {
@@ -454,7 +487,6 @@ p .color {
   max-width: 16rem;
   border-radius: 15px;
   filter: grayscale(100%);
-  margin-left: 25%;
 }
 
 .about-info {
@@ -472,7 +504,7 @@ p .color {
 .about-info h3 {
   text-transform: uppercase;
   color: #1cb0e6;
-  /* text-align: center; */
+  text-align: center;
   margin-bottom: 1rem;
   font-weight: 900;
   letter-spacing: 0.25rem;
@@ -611,7 +643,7 @@ p .color {
   max-width: 20rem;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
+
   line-height: 1.8rem;
   margin-top: 2rem;
   color: white;
@@ -728,6 +760,7 @@ Questions
 .title {
   margin-top: 15vh;
   margin-bottom: 4rem;
+  text-align: center;
 }
 .title h2 {
   color: var(--clr-gold);
@@ -755,12 +788,22 @@ Questions
 
 .question-title-1 {
   display: grid;
-  align-items: left;
+  align-items: center;
   grid-template-columns: repeat (1fr);
 }
 
-#lni_lni-checkmark-circle {
-  margin-right: 3rem;
+.question-title-1 h3 {
+  text-align: center;
+}
+
+.question-title-1 p {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .question-title-1 p {
+    font-size: 0.75rem;
+  }
 }
 
 .question-title h5 {
@@ -774,11 +817,11 @@ Questions
 }
 
 .question-title h5 {
-  text-align: left;
+  text-align: centre;
 }
 
-.title h3 {
-  text-align: center;
+.about-info h3 {
+  text-align: left;
 }
 
 .question-btn {
@@ -937,6 +980,7 @@ h3 {
   padding: 4rem 0;
   color: #ffffff;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .google {
@@ -964,4 +1008,49 @@ h3 {
 .link {
   color: #1cb0e6;
   font-weight: bolder;
+}
+
+.customers {
+  color: #ffffff;
+  max-width: 85%;
+  text-align: center;
+  font-weight: bolder;
+  margin: 2rem auto;
+  line-height: 1.25rem;
+}
+
+.svg {
+  background-size: 30px 30px;
+}
+
+a:visited {
+  color: none;
+}
+
+.section-title p {
+  line-height: 2rem;
+}
+
+.section-title .reviews {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.customers span {
+  font-size: 2.25rem;
+  color: #ffffff;
+}
+
+.contact-container p {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+
+  margin: 1rem 0;
+}
+
+.black {
+  color: black;
 }
