@@ -217,10 +217,23 @@ NAV BAR
   font-weight: bolder;
   border: #1cb0e6;
   border-radius: 15px;
-  padding: 1.75rem;
-  border: 2px solid black;
+  padding: 0.75rem;
+  /* border: 2px solid black; */
   text-transform: uppercase;
-  margin-top: 2rem;
+  margin: 2rem 0.5rem;
+  letter-spacing: 0.12rem;
+}
+
+.book-3 {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border: #1cb0e6;
+  border-radius: 15px;
+  padding: 0.75rem;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+  margin: 2rem 0.5rem;
 }
 
 .book:hover {
@@ -449,7 +462,8 @@ About
 
 .main {
   letter-spacing: 0.25rem;
-  text-align: left;
+  margin: 0 auto;
+  max-width: 75%;
 }
 
 h4 .color {
@@ -483,9 +497,9 @@ p .color {
 }
 
 .about-photo {
-  height: 16rem;
-  max-width: 16rem;
-  border-radius: 15px;
+  height: 8rem;
+  max-width: 8rem;
+  border-radius: 50%;
   filter: grayscale(100%);
 }
 
@@ -1012,7 +1026,7 @@ h3 {
 
 .customers {
   color: #ffffff;
-  max-width: 85%;
+  max-width: 50%;
   text-align: center;
   font-weight: bolder;
   margin: 2rem auto;
