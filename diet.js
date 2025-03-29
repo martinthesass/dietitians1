@@ -7,6 +7,7 @@ const popup = document.querySelector(".modal");
 const xBtn = document.querySelector(".x-btn");
 
 const openModal = document.querySelector(".open-modal");
+// const openModals = document.querySelector(".open-modal-1");
 
 xBtn.addEventListener("click", () => {
   popup.style.display = "none";
@@ -19,14 +20,18 @@ xBtn.addEventListener("click", () => {
 // window.addEventListener("load", function () {
 //   setTimeout(function open(event) {
 //     document.querySelector(".modal").style.display = "grid";
-//   }, 5000);
+//   }, 3000);
 // });
 
-//* OPEN MODAL */
+// * OPEN MODAL */
 
 openModal.addEventListener("click", () => {
   popup.style.display = "grid";
 });
+
+// openModals.addEventListener("click", () => {
+//   popup.style.display = "grid";
+// });
 
 // ********** set date ************
 // select span
