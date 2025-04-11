@@ -457,15 +457,13 @@ h4 {
   border-radius: 15px;
   font-weight: bolder;
   margin-bottom: 6rem;
-}
-
-.grey p {
-  margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 600px) {
   .grey p {
-    margin: 0 1.2rem;
+    font-size: 8px;
+    margin: 0 0.25rem;
   }
 }
 
@@ -787,7 +785,7 @@ p .color {
   justify-content: space-between; */
 
   display: flex;
-  margin: 2rem -50rem;
+  margin: 2rem;
   align-items: center;
 }
 
@@ -797,7 +795,7 @@ p .color {
 
 @media screen and (max-width: 600px) {
   .services-2 svg {
-    margin: 2rem -10rem;
+    margin: 2rem 0;
   }
 }
 
